@@ -12,57 +12,7 @@
     </head>
     <body>
         <script src="" async defer></script>
-        <div class="main-div-section-wrapper">
-            <div class="container d-flex flex-column w-100">
-                <div class="d-flex flex-row w-100 header-content-wrapper">
-                    <div class="header-logo flex-grow-1">
-                        <img src="assets/images/logo.png" alt="logo">
-                    </div>
-                    <ul class="list-unstyled flex-grow-0">
-                        <li><a href="#" class="link-offset-2 link-underline link-underline-opacity-0">Sign inn</a></li>
-                    </ul>
-                </div>
-                <div class="d-flex w-100 justify-content-center bottom-content-wrapper">
-                    <div class="left-content-wrapper w-50 d-flex flex-column">
-                        <div class="left-content-bold-text"><span class="underline-header-text">Everything</span> you need for teaching</div>
-                        <div class="left-content-normal-text">The future's most important tool for the teacher</div>
-                        <div class="left-input-email-div-wrapper position-relative">
-                            <input type="email" placeholder="Enter email" class="position-absolute"/>
-                            <button type="submit" class="btn position-absolute">Get Started -></button>
-                        </div>
-                        <div class="sign-in-with-text">
-                            or Sign in with
-                        </div>
-                        <div class="sign-in-with-btns d-flex flex-row">
-                            <div><img src="assets/images/feide.png" alt="logo"></div>
-                            <div><img src="assets/images/voops.png" alt="logo"></div>
-                        </div>
-                        
-                    </div>
-                    <div class="right-content-wrapper">
-                        <div class="position-relative w-100">
-                            <img class="base-image" src="assets/images/image.png" alt="logo">
-                            <div class="teacher-member-div-wrapper d-flex flex-column position-absolute">
-                                <img src="assets/images/smile.png" alt="logo" class="position-absolute">
-                                <div class="teacher-member-count d-flex flex-column align-items-center justify-content-center">3.75k</div>
-                                <div class="teacher-member-text d-flex flex-column align-items-center justify-content-center">Teachers & Members</div>
-                            </div>
-                            <div class="user-div-detail-wrapper d-flex flex-column position-absolute">
-                                <div class="user-div-detail-text">Essential Course For Your School sylabus Toolkit Consectetuer.</div>
-                                <div class="user-div-bio-div-wrapper d-flex flex-row">
-                                    <img src="assets/images/user.png">
-                                    <div class="d-flex flex-column user-div-bio-text-wrapper justify-content-center">
-                                        <div class="user-name">Himaad Riaz</div>
-                                        <div class="user-school">Principle of Amsterdam School</div>
-                                    </div>
-                                </div>
-                                <img src="assets/images/star.png" alt="logo" class="position-absolute">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <div class="classroom-glimpse-section-wrapper">
             <div class="container d-flex flex-column w-100">
                 <div class="header-text">Glimpses from the classrooms</div>
@@ -159,7 +109,7 @@
         </div>
         <div class="products-display-section-wrapper">
             <div class="product-display-container w-100">
-                <div class="d-flex flex-row w-100">
+                <div class="d-flex flex-row w-100 product-display-container-wrapper">
                     <div class="left-side-content-wrapper d-flex justify-content-end">
                         <div class="product-display-left-side-content-wrapper container">
                             <div class="user-num-text">User 13</div>
@@ -179,14 +129,40 @@
             </div>
         </div> 
         <div class="what-happing-section-wrapper-second">
-             <div class="container d-flex flex-column w-100">
-                11
+             <div class="container d-flex flex-row w-100">
+                <div class="left-section-wrapper d-flex flex-column align-items-start justify-content-start w-50">
+                    <div class="header-text">
+                        What is happening in the school world right now?
+                    </div>
+                    <div class="normal-text">
+                        Here is a practical calendar where you will find an overview of theme weeks, deadlines, activities, current events and other things that are relevant to you who work in the school.
+                    </div>
+                    <div class="w-h-btn">
+                        <a href="javascript:;">Explore the themed calendar</a>
+                    </div>
+                </div>
+                <div class="right-section-wrapper d-flex r">
+                    <div class="right-section-wrapper-image">
+                        <img src="assets/images/wh-section.png"/>
+                    </div>
+                </div>
              </div>
         </div>
         <div class="uos-martial-section-wrapper">
             <div class="container d-flex flex-column w-100">
-                <div class="header-section header-text">
-                    Uos And Material
+                <div class="header-section d-flex flex-row w-100">
+                    <div class="d-flex flex-row">
+                    <div class="header-text">Uos And Material</div>
+                    <img src="assets/images/uos-vector.png" class="uos-vector"/>
+                    </div>
+                    <div class="arrow-icons-wrapper d-flex flex-row">
+                        <div class="arrow-icons left-arrow">
+                            <img src="assets/images/left_arrow.png"/>
+                        </div>
+                        <div class="arrow-icons">
+                            <img src="assets/images/right_arrow.png"/>
+                        </div>
+                    </div>
                 </div>
                 <div class="d-flex flex-row justify-content-center uos-material-user-detail-wrapper w-100">
                     <div class="uos-martial-section-wrapper-div d-flex flex-column w-25">
@@ -365,7 +341,7 @@
                                 The youth level will have theme weeks such as "Creator Week", "Dystopia; When democracy fails", "Fantasy", "Election year 2021", "International week" and "My talent".
                         </div>
                     </div>
-                    <div class="question-section-div d-flex flex-column">
+                    <div class="question-section-div open-question-div d-flex flex-column">
                         <div class="question-text-que-icon-div d-flex flex-row justify-content-between align-items-center">
                             <div class="question-title">What is meant by teacher community?</div>
                             <div class="question-icon d-flex justify-content-center align-items-center"></div>
@@ -402,6 +378,27 @@
                 </div>
             </div>
         </div>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap.min.js">
+            document.addEventListener("DOMContentLoaded", function () {
+                document.querySelectorAll('.question-icon').forEach(icon => {
+                    console.log(icon);
+                    const parent = icon.closest('.question-section-div');
+                    console.log('===Called');
+                    console.log(parent);
+
+                    icon.addEventListener('mouseenter', () => {
+                        console.log('mouseenter triggered');
+
+                        parent.classList.add('open-question-div');
+                    });
+
+                    icon.addEventListener('mouseleave', () => {
+                        console.log('mouseleave triggered');
+                        parent.classList.remove('open-question-div');
+                    });
+                });
+            });
+
+        </script>
     </body>
 </html>
